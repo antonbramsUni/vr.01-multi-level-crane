@@ -38,7 +38,6 @@ class Crane:
 			PARENT_NODE = self.base_node, 
 			DIAMETER = .1, 
 			HEIGHT = .01, 
-			ROT_OFFSET_MAT = avango.gua.make_identity_mat(), 
 			ROT_AXIS = rotAxi0, 
 			SF_ROT_INPUT_MAT = [-180, 180])
 		hinge0.sf_rot_value.connect_from(self.input.sf_rot_input0)
